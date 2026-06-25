@@ -1,6 +1,3 @@
-
-
-
 # 💧 Maji Ndogo Water Services Dashboard — Power BI Project (Part 3: Communicating)
 
 An end-to-end Power BI project that turns the Maji Ndogo water survey data into a multi-page, stakeholder-ready report — complete with national and provincial drill-through pages, DAX-driven budget calculations, and interactive bookmark navigation — designed to help decision-makers plan and fund water access upgrades across the region.
@@ -124,7 +121,7 @@ This phase relied heavily on **DAX measures and calculated columns** to convert 
 
 ## 🔗 Model View
 
-The relational model (see `model_view.png`) connects all eight tables through a consistent set of keys, enabling cross-filtering across every page and visual:
+The relational model (see `model_view.jpg`) connects all eight tables through a consistent set of keys, enabling cross-filtering across every page and visual:
 
 - `location` (1) → (∞) `visits` — each location can have multiple recorded visits.
 - `location` (1) → (∞) `water_source_related_crime` — crime incidents linked via `loc_id`.
@@ -135,7 +132,7 @@ The relational model (see `model_view.png`) connects all eight tables through a 
 
 Relationships were rectified to resolve ambiguous or duplicated join paths between `visits`, `water_source`, and `well_pollution`, ensuring slicers (province, town, improvement type) filter consistently across every visual on every page rather than producing conflicting results.
 
-📷 *See `model_view.png` in the resources for the full relationship diagram.*
+📷 *See `model_view.jpg` in the resources for the full relationship diagram.*
 
 ---
 
@@ -174,7 +171,7 @@ Relationships were rectified to resolve ambiguous or duplicated join paths betwe
    git clone https://github.com/<your-username>/maji-ndogo-water-services-report.git
    ```
 2. Open **`Md_water_services.xlsx`** to review the raw source tables (optional).
-3. Open the **`.pbix`** file in **Power BI Desktop**.
+3. Open the **`Maji_Ndogo_Water_Services_Report_Part3.pbix`** file in **Power BI Desktop**.
 4. Review the **Power Query Editor** steps and the **DAX measures/calculated columns** in the Fields pane to understand the transformation logic.
 5. Go to **Model View** to inspect the relationships between tables.
 6. On the **National page**, right-click any province in the map or table and select **Drill through → [Province name]** to open its dedicated provincial page.
@@ -189,18 +186,20 @@ Relationships were rectified to resolve ambiguous or duplicated join paths betwe
 maji-ndogo-water-services-report/
 │
 ├── data/
-│   └── Md_water_services.xlsx          # Raw source dataset (all 8 tables)
+│   └── Md_water_services.xlsx              # Raw source dataset (all 8 tables)
 │
 ├── images/
-│   ├── water_sources.png               # National/provincial water source visuals
-│   ├── queue_information.png           # Queue analysis visuals
-│   ├── pollution_status.png            # Well pollution status visuals
-│   ├── water_source_related_crimes.png # Crime analysis visuals
-│   └── model_view.png                  # Power BI data model / relationships
+│   ├── national_page.jpg                   # National overview page (budget, access %, improvements)
+│   ├── sokoto_province.jpg                 # Sokoto provincial drill-through page
+│   ├── amanzi_province.jpg                 # Amanzi provincial drill-through page
+│   ├── hawassa_province.jpg                # Hawassa provincial drill-through page
+│   ├── akatsi_province.jpg                 # Akatsi provincial drill-through page
+│   ├── kilimani_province.jpg               # Kilimani provincial drill-through page
+│   └── model_view.jpg                      # Power BI data model / relationships
 │
-├── Maji_Ndogo_Water_Services_Report.pbix   # Main Power BI report file
+├── Maji_Ndogo_Water_Services_Report_Part3.pbix   # Main Power BI report file
 │
-└── README.md                           # Project documentation (this file)
+└── README.md                               # Project documentation (this file)
 ```
 
 ---
@@ -240,13 +239,19 @@ If you found this project useful or interesting, please consider **starring ⭐ 
 
 | Resource | Description |
 |---|---|
+| `Maji_Ndogo_Water_Services_Report_Part3.pbix` | Main Power BI report file — National page, 5 provincial drill-through pages, bookmarks |
 | `Md_water_services.xlsx` | Original raw dataset containing all 8 source tables |
-| `water_sources.png` | Dashboard view of water source distribution across towns/provinces |
-| `queue_information.png` | Dashboard view of queue time and composition analysis |
-| `pollution_status.png` | Dashboard view of well pollution status by province |
-| `water_source_related_crimes.png` | Dashboard view of crime statistics linked to water access |
-| `model_view.png` | Power BI data model showing table relationships |
+| `national_page.jpg` | National overview dashboard — total budget, access %, improvements, provincial budget breakdown |
+| `sokoto_province.jpg` | Sokoto provincial drill-through page — budget, improvements, town-level breakdown |
+| `amanzi_province.jpg` | Amanzi provincial drill-through page — budget, improvements, town-level breakdown |
+| `hawassa_province.jpg` | Hawassa provincial drill-through page — budget, improvements, town-level breakdown |
+| `akatsi_province.jpg` | Akatsi provincial drill-through page — budget, improvements, town-level breakdown |
+| `kilimani_province.jpg` | Kilimani provincial drill-through page — budget, improvements, town-level breakdown |
+| `model_view.jpg` | Power BI data model showing table relationships |
 
+---
+
+⭐ *If this project helped you understand Power BI report design, DAX, and stakeholder-driven dashboard storytelling, give it a star!*
 ---
 
 ⭐ *If this project helped you understand Power BI report design, DAX, and stakeholder-driven dashboard storytelling, give it a star!*
