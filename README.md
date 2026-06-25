@@ -168,7 +168,7 @@ Relationships were rectified to resolve ambiguous or duplicated join paths betwe
 
 1. **Clone or download** this repository.
    ```bash
-   git clone https://github.com/<your-username>/maji-ndogo-water-services-report.git
+   https://github.com/Paulkimaili/-Maji-Ndogo-Water-Services-Dashboard-Power-BI-Project-Part-3
    ```
 2. Open **`Md_water_services.xlsx`** to review the raw source tables (optional).
 3. Open the **`Maji_Ndogo_Water_Services_Report_Part3.pbix`** file in **Power BI Desktop**.
@@ -225,7 +225,7 @@ These results demonstrate that the report's structure, DAX logic, and drill-thro
 
 ## 👤 Author / Developer
 
-**[Your Name]**
+**Paul Kimaili**
 Data Analyst | Power BI Developer | Data Scientist
 
 - Email : pkimaili2@gmail.com
