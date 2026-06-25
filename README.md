@@ -1,4 +1,4 @@
-# 💧 Maji Ndogo Water Services Dashboard — Power BI Project (Part 3: Communicating)
+# 💧 Maji Ndogo Water Services Dashboard — Power BI Project-Part 3
 
 An end-to-end Power BI project that turns the Maji Ndogo water survey data into a multi-page, stakeholder-ready report — complete with national and provincial drill-through pages, DAX-driven budget calculations, and interactive bookmark navigation — designed to help decision-makers plan and fund water access upgrades across the region.
 
@@ -226,10 +226,11 @@ These results demonstrate that the report's structure, DAX logic, and drill-thro
 ## 👤 Author / Developer
 
 **[Your Name]**
-Data Analyst | Power BI Developer
+Data Analyst | Power BI Developer | Data Scientist
 
-- GitHub: [your-github-profile](https://github.com/your-username)
-- LinkedIn: [your-linkedin-profile](https://linkedin.com/in/your-username)
+- Email : pkimaili2@gmail.com
+- GitHub: https://github.com/Paulkimaili
+- LinkedIn: https://www.linkedin.com/in/paul-kimaili964/
 
 If you found this project useful or interesting, please consider **starring ⭐ the repo** — it helps others discover it and supports more projects like this one!
 
@@ -253,5 +254,3 @@ If you found this project useful or interesting, please consider **starring ⭐ 
 
 ⭐ *If this project helped you understand Power BI report design, DAX, and stakeholder-driven dashboard storytelling, give it a star!*
 ---
-
-⭐ *If this project helped you understand Power BI report design, DAX, and stakeholder-driven dashboard storytelling, give it a star!*
