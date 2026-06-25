@@ -1,4 +1,4 @@
-# -Maji-Ndogo-Water-Services-Dashboard-Power-BI-Project-Part-3
+
 
 
 # 💧 Maji Ndogo Water Services Dashboard — Power BI Project (Part 3: Communicating)
@@ -28,9 +28,9 @@ This phase of the project (**Part 3**) focuses on **report design and stakeholde
 
 ### 👥 Designed Around Real User Stories
 
-The report layout was driven by the needs of two key stakeholders:
+The report layout was driven by the needs of leaders of two levels:
 
-**President Naledi (National Level)**
+**National Level**
 1. Wants the key points of the survey results to understand the overall status of water access in Maji Ndogo, split by rural vs. urban populations.
 2. Wants to know how many people are affected by water access challenges and what those challenges are — including the distribution and ranking of source types.
 3. Wants to know how much money is needed to complete the upgrades and where that money should be spent — nationally, provincially, by rural/urban split, and by improvement type.
