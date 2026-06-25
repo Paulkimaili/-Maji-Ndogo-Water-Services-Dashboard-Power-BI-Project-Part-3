@@ -204,7 +204,7 @@ maji-ndogo-water-services-report/
 
 ---
 
-## ✅ Project Challenge — Sample Analysis Findings
+## ✅ Analysis Project Findings
 
 This project was validated against a 10-question report-design and analysis challenge (scored on accuracy and design reasoning), confirming the report correctly supports findings such as:
 
